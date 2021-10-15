@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaDeLogin">
+
+
+    <ImageView
+        android:id="@+id/book_icon"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/devs_text"
+        app:layout_constraintRight_toRightOf="@id/login_user_field"
+        app:layout_constraintLeft_toLeftOf="@id/login_user_field"
+
+
+        android:layout_marginTop="200dp"
+
+        android:src="@drawable/ic_book_icon_background"
+
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/devs_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/book_icon"
+        app:layout_constraintBottom_toTopOf="@id/login_user_field"
+        app:layout_constraintRight_toLeftOf="@id/books_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:textAlignment="viewEnd"
+
+        android:text="Devs"
+        android:textColor="#78C2A4"
+        />
+
+    <TextView
+        android:id="@+id/books_text"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="@id/devs_text"
+        app:layout_constraintBottom_toBottomOf="@id/devs_text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/devs_text"
+
+        android:text="Books"
+        android:textColor="#FF9A9F"
+        />
+
+
+    <EditText
+        android:id="@+id/login_user_field"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintTop_toBottomOf="@id/devs_text"
+        app:layout_constraintBottom_toTopOf="@id/login_password_field"
+        app:layout_constraintRight_toRightOf="@id/login_password_field"
+        app:layout_constraintLeft_toLeftOf="@id/login_password_field"
+
+        android:layout_marginTop="20dp"
+
+
+        android:text="Nome de Usuário"
+
+        />
+
+    <EditText
+        android:id="@+id/login_password_field"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintTop_toBottomOf="@id/login_user_field"
+        app:layout_constraintBottom_toTopOf="@id/login_button"
+        app:layout_constraintRight_toRightOf="@id/login_button"
+        app:layout_constraintLeft_toLeftOf="@id/login_button"
+
+        android:text="Senha"
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintTop_toBottomOf="@id/login_password_field"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+
+
+        android:text="Fazer Login"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
