@@ -118,7 +118,7 @@
                     android:paddingStart="56dp"
                     android:paddingEnd="0dp"
 
-                    android:text="Nome de Usuário"
+                    android:hint="Nome de Usuário"
 
                     style="@style/TextFieldLogin"
 
@@ -163,7 +163,7 @@
                     android:paddingEnd="0dp"
                     android:paddingVertical="16dp"
 
-                    android:text="Senha"
+                    android:hint="Senha"
 
                     style="@style/TextFieldLogin"
 
