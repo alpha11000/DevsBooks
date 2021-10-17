@@ -168,7 +168,7 @@
 
                 android:drawableTop="@drawable/ic_baseline_person_24"
 
-                android:text="Buscar\nCONSERTAR"
+                android:text="Buscar\n"
 
 
                 style="@style/HomeButton"
