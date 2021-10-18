@@ -121,7 +121,7 @@
                 android:layout_marginStart="31dp"
 
                 android:layout_marginTop="125dp"
-                android:drawableTop="@drawable/ic_baseline_person_24"
+                android:drawableTop="@drawable/ic_baseline_star_24"
 
                 android:text="Meus\nFavoritos"
 
@@ -142,7 +142,7 @@
 
                 android:layout_marginTop="125dp"
 
-                android:drawableTop="@drawable/ic_baseline_person_24"
+                android:drawableTop="@drawable/ic_baseline_shopping_cart_24"
 
                 android:text="Minhas\nCompras"
 
@@ -164,7 +164,7 @@
 
                 android:layout_marginTop="125dp"
 
-                android:drawableTop="@drawable/ic_baseline_person_24"
+                android:drawableTop="@drawable/ic_baseline_search_24"
 
                 android:text="Buscar\n"
 
@@ -215,63 +215,62 @@
                         android:layout_marginTop="12.34dp"
                         android:background="#F6F6F6" />
 
-                    <ScrollView
+                    <HorizontalScrollView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
-
                         android:layout_marginTop="11dp"
+
                         >
                         
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:paddingHorizontal="6dp"
                             android:orientation="horizontal"
+
                             
                             >
                             
-                            <View
-                                android:layout_width="100dp"
-                                android:layout_height="149dp"
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
 
                                 android:layout_marginLeft="6dp"
 
-                                android:background="@color/primary_color"
+                                android:src="@drawable/livro_1"
 
                                 />
 
-                            <View
+                            <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="149dp"
 
                                 android:layout_marginHorizontal="6dp"
 
-                                android:background="@color/purple_200"
+                                android:src="@drawable/livro_2"
                                 />
 
-                            <View
+                            <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="149dp"
 
                                 android:layout_marginHorizontal="6dp"
 
-                                android:background="#FFF280"
+                                android:src="@drawable/livro_3"
                                 />
 
-                            <View
+                            <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="149dp"
 
                                 android:layout_marginHorizontal="6dp"
 
-                                android:background="#FF5722"
+                                android:src="@drawable/livro_4"
                                 />
                             
                         </LinearLayout>
                         
-                    </ScrollView>
+                    </HorizontalScrollView>
 
                     <View
                         android:layout_width="match_parent"
@@ -289,8 +288,8 @@
 
                         android:layout_gravity="center"
 
-                        android:text="-------->TEMPORÁRIO<-------"
-                        android:textColor="#FF0000"
+                        android:text="Ver Mais"
+                        style="@style/CardButton"
                         />
                         
 
@@ -302,6 +301,8 @@
 
             <!--DESTAQUE DO DIA-->
             <androidx.cardview.widget.CardView
+                android:id="@+id/destaque_do_dia"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -327,7 +328,7 @@
                         android:layout_marginTop="12.34dp"
                         android:layout_marginLeft="12dp"
 
-                        android:text="Últimos Lançamentos"
+                        android:text="Destaque do Dia"
                         android:textColor="#16553C"
                         android:textStyle="bold"
                         android:textSize="14sp"
@@ -349,19 +350,21 @@
 
                         >
 
-                        <View
+                        <ImageView
                             android:layout_width="100dp"
                             android:layout_height="146dp"
 
                             android:layout_marginHorizontal="12dp"
                             android:layout_marginVertical="12dp"
 
-                            android:background="@color/primary_color"
+                            android:src="@drawable/livro5"
                             />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+
+                            android:paddingRight="12dp"
 
                             android:orientation="vertical"
 
@@ -373,7 +376,7 @@
 
                                 android:layout_marginTop="12dp"
 
-                                android:text="TÍTULO"
+                                android:text="Unifica-me"
                                 style="@style/NormalText"
                                 android:textSize="14sp"
                                 android:textStyle="bold"
@@ -387,7 +390,7 @@
 
                                 style="@style/NormalText"
 
-                                android:text="AUTOR"
+                                android:text="Tahereh Mafi"
                                 android:textSize="12sp"
                                 />
 
@@ -397,9 +400,11 @@
 
                                 android:layout_marginTop="6dp"
 
+                                android:paddingRight="12dp"
+
                                 style="@style/NormalText"
 
-                                android:text="RESUMO"
+                                android:text="Os contos mais esperados por todos os fãs da série Estilhaça-me acabam de chegar! Da autora best-seller e gênia da distopia, Tahereh Mafi, conheça o livro que reúne o diário de Juliette e os contos Destrua-me e Fragmenta-me..."
                                 android:textSize="12sp"
                                 />
 
@@ -428,8 +433,150 @@
 
                         android:layout_gravity="center"
 
-                        android:text="-------->TEMPORÁRIO<-------"
-                        android:textColor="#FF0000"
+                        android:text="Comprar"
+                        style="@style/CardButton"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintTop_toBottomOf="@id/destaque_do_dia"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="168dp"
+
+                >
+
+                <LinearLayout
+
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="12.34dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:text="Recomendado"
+                        android:textColor="#16553C"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+
+                        android:layout_marginTop="12.34dp"
+                        android:background="#F6F6F6" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="146dp"
+
+                            android:layout_marginHorizontal="12dp"
+                            android:layout_marginVertical="12dp"
+
+                            android:src="@drawable/livro_6"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+
+                            android:paddingRight="12dp"
+
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginTop="12dp"
+
+                                android:text="Duna"
+                                style="@style/NormalText"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginTop="6dp"
+
+                                style="@style/NormalText"
+
+                                android:text="Frank Herbert"
+                                android:textSize="12sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginTop="6dp"
+
+                                style="@style/NormalText"
+
+                                android:text="A vida do jovem Paul Atreides está prestes a mudar radicalmente. Após a visita de uma mulher misteriosa, ele é obrigado a deixar seu planeta natal para sobreviver ao ambiente árido e severo de Arrakis, o Planeta Deserto."
+                                android:textSize="12sp"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+
+                        android:layout_marginTop="12dp"
+                        android:background="#F6F6F6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+
+                        android:layout_gravity="center"
+
+                        android:text="Comprar"
+                        style="@style/CardButton"
                         />
 
 
