@@ -26,7 +26,10 @@
 
     <style name="HomeButton" parent="TextAppearance.AppCompat.Button">
 
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:backgroundTint">@color/white</item>
+
+
         <item name="android:textColor">#16553C</item>
         <item name="android:drawablePadding">8dp</item>
         <item name="android:paddingTop">12dp</item>
@@ -43,7 +46,9 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="CardButton" parent="Base.Widget.AppCompat.TextView">
+    <style name="CardButton" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:backgroundTint">@color/white</item>
         <item name="textAllCaps">false</item>
         <item name="android:textColor">#78C2A4</item>
         <item name="android:textSize">14sp</item>

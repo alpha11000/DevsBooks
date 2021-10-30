@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable-v21/ripple.xml" value="0.19479166666666667" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1953125" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/button_selector.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/home_button.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/home_button_e.xml" value="0.1328125" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/home_button_shape.xml" value="0.19479166666666667" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2046875" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/ic_book_icon_background.xml" value="0.13958333333333334" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1953125" />
-        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/ripple.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/drawable/selector_color.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/layout/activity_tela_de_login.xml" value="0.22" />
         <entry key="..\:/Users/Cliente/AndroidStudioProjects/DevsBooks/app/src/main/res/mipmap-anydpi-v26/ic_book_icon.xml" value="0.2046875" />
